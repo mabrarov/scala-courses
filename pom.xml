@@ -10,6 +10,11 @@
 
     <name>Golovach Courses</name>
 
+    <scm>
+        <connection>scm:git:https://github.com/mabrarov/scala-courses.git</connection>
+    </scm>
+
+
     <modules>
         <module>intro</module>
     </modules>
