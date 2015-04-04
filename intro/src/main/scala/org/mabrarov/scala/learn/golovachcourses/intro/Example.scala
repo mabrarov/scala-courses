@@ -1,4 +1,4 @@
-package org.mabrarov.scala.learn.golovachcources.intro
+package org.mabrarov.scala.learn.golovachcourses.intro
 
 object Example {
   def main(args: Array[String]) {

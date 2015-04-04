@@ -43,7 +43,7 @@
                             <transformers>
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>org.mabrarov.scala.learn.golovachcources.intro.Example</mainClass>
+                                    <mainClass>org.mabrarov.scala.learn.golovachcourses.intro.Example</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
