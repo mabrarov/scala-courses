@@ -17,12 +17,14 @@
 
     <modules>
         <module>intro</module>
+        <module>scala-with-java</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <scala.version>2.11.6</scala.version>
+        <maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
         <scala-maven-plugin.version>3.2.0</scala-maven-plugin.version>
         <maven-shade-plugin.version>2.3</maven-shade-plugin.version>
     </properties>
@@ -40,6 +42,11 @@
     <build>
         <pluginManagement>
             <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>${maven-compiler-plugin.version}</version>
+                </plugin>
                 <plugin>
                     <groupId>net.alchim31.maven</groupId>
                     <artifactId>scala-maven-plugin</artifactId>
