@@ -20,7 +20,6 @@ object Example {
   }
 
   def main(args: Array[String]) {
-    println("Hello, World!")
     println(dec(new Example().inc(0)))
   }
 }
