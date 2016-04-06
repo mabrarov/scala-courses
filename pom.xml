@@ -17,6 +17,7 @@
     <modules>
         <module>intro</module>
         <module>scala-with-java</module>
+        <module>types</module>
     </modules>
 
     <properties>

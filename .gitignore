@@ -1,6 +1,6 @@
 # IntelliJ IDEA project files
 .idea
-/*.iml
+*.iml
 
 # Maven build dir
 /target

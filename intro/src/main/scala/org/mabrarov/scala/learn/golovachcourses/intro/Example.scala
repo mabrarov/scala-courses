@@ -5,21 +5,16 @@ package org.mabrarov.scala.learn.golovachcourses.intro
  */
 class Example {
 
-  def inc(x: Int): Int = {
-    x + 1
-  }
+  def inc(x: Int) = x + 1
 }
 
 /**
  * Object
  */
-object Example {
+object Example extends App {
 
-  def dec(x: Int): Int = {
-    x - 1
-  }
+  def dec(x: Int) = x - 1
 
-  def main(args: Array[String]) {
-    println(dec(new Example().inc(0)))
-  }
+  println(dec(new Example().inc(0)))
+
 }
